@@ -20,21 +20,11 @@ $ git config --global user.name "<ユーザ名>"
 $ git config --global user.email "<メールアドレス>"
 ```
 
-#### ※[今回の実習では、設定不要です] proxy設定（必要な場合）
-```
-$ git config --global http.proxy http://proxyname:8080
-$ git config --global https.proxy http://proxyname:8080
-```
-
-※なお、これらはすべて~/.gitconfigに以下のように反映されます。
+※なお、これらは/.gitconfigに以下のように反映されます。
 ```
 [user]
 	name = <ユーザ名>
 	email = <メールアドレス>
-[http]
-	proxy = http://proxyname:8080
-[https]
-	proxy = http://proxyname:8080
 ```
 
 ---
@@ -45,9 +35,11 @@ Gitの操作
 #### 1. GitHubにインターンシップ用ディレクトリXXXを作成する
 
 #### 2. PCに、作業ディレクトリXXXを作成する
-#### 3. コンソールで、ディレクトリXXXへ移動する
 ```
 mkdir XXX
+```
+#### 3. コンソールで、ディレクトリXXXへ移動する
+```
 cd XXX
 ```
 #### 4. [一度だけ実施] 作業ディレクトリを初期化する。
@@ -69,12 +61,11 @@ $ git commit -m "コミットメッセージ"
 ```
 ※この操作で、インデックスの内容が`ローカルリポジトリ`へコミットされる
 #### 7. コミットした内容を、GitHubへpushする
-* [一度だけ実施]GitHubに、管理用リポジトリを作成しておく
-* [一度だけ実施]GitHubのリポジトリに、ローカルでの別名をつけておく（originという別名をつけておく）。
+* [一度だけ実施] GitHubのリポジトリに、ローカルでの別名をつけておく（originという別名をつけておく）。
 ```
 $ git remote add origin https://github.com/<GitHubのアカウント名>/<作成した管理用リポジトリ名>.git
 ```
-* コミットした内容を、GitHubへpushする。以下のコマンドを実行する。その際、GitHubのアカウント名とパスワードを尋ねられるので、入力する。
+* コミットした内容を、GitHubへpushするため、以下のコマンドを実行する。その際、GitHubのアカウント名とパスワードを尋ねられるので、入力する。
 ```
 $ git push origin master
 ```
