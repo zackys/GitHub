@@ -32,6 +32,8 @@ Gitの操作
 
 #### 1. GitHubにインターンシップ用ディレクトリXXXを作成する
 
+![https://github.com/zacky-san/GitHub/blob/master/img/CrtRp_1.jpg](https://github.com/zacky-san/GitHub/blob/master/img/CrtRp_1.jpg)
+
 #### 2. PCに、作業ディレクトリXXXを作成する
 ```
 mkdir XXX
