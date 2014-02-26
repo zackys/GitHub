@@ -67,6 +67,10 @@ $ git commit -m "コミットメッセージ"
 ```
 $ git remote add origin https://github.com/<GitHubのアカウント名>/<作成した管理用リポジトリ名>.git
 ```
+　
+---
+　
+
 * コミットした内容を、GitHubへpushするため、以下のコマンドを実行します。その際、GitHubのアカウント名とパスワードを尋ねられるので、入力します。
 ```
 $ git push origin master
