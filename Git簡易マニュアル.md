@@ -27,8 +27,6 @@ $ git config --global user.email "<メールアドレス>"
 	email = <メールアドレス>
 ```
 
----
-
 Gitの操作
 ------------
 
@@ -95,3 +93,4 @@ $ git config --global credential.helper cache --timeout=3600
 
 * [git - 簡単ガイド](http://rogerdudler.github.io/git-guide/index.ja.html) - http://rogerdudler.github.io/git-guide/index.ja.html
 * [Gitを使いこなすための20のコマンド](http://sourceforge.jp/magazine/09/03/16/0831212) - http://sourceforge.jp/magazine/09/03/16/0831212
+* [このマニュアル](https://github.com/zacky-san/GitHub/blob/master/Git簡易マニュアル.md) - https://github.com/zacky-san/GitHub/blob/master/Git簡易マニュアル.md
